@@ -341,7 +341,7 @@ p {
 }
 
 body {
-  background-image: url("path/to/image.jpg");
+  background-image: url("a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
