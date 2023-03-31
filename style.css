@@ -246,4 +246,57 @@ section a:hover {
   text-decoration: underline;
 }
 
+/* Add a background image to the header */
+header {
+  background-image: url('milky-way-2695569__480.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Add a border and a hover effect to the navigation links */
+nav a {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the buttons with a gradient background */
+button {
+  background-image: linear-gradient(to bottom, #007bff, #0066cc);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-image 0.2s ease;
+}
+
+button:hover {
+  background-image: linear-gradient(to bottom, #0066cc, #0052a3);
+}
+
+/* Add a shadow to the images */
+img {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer with a dark background and white text */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add some margin and padding to the container */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
 
